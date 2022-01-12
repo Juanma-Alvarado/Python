@@ -1,0 +1,7 @@
+service: default
+runtime: python39
+
+handlers:
+- url: .*
+script: auto
+secure: always 
